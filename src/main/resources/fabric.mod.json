@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "player-prediction",
+  "version": "${version}",
+  "name": "Player Prediction",
+  "description": "Predicts player movement and displays backtracking trails",
+  "authors": ["jujadisowsk-coder"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.playerpredict.PlayerPredictionMod"],
+    "client": ["com.playerpredict.PlayerPredictionClientMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
