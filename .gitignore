@@ -1,0 +1,17 @@
+.gradle
+build
+.DS_Store
+*.iml
+.idea
+out
+.classpath
+.project
+.settings
+eclipse
+bin
+*.swp
+*.swo
+*~
+.vscode
+.run
+run
